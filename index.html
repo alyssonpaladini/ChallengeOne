@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title>Challenge Oracle One</title>
+</head>
+<body>
+        <section>
+            
+            <div id="logo">      
+                <p><img class="img-logo2" src="imgs/one.png" alt=""></p>        
+                <p><img class="img-logo" src="imgs/logo.png" alt=""></p>
+            </div>
+            
+            <div id="texto"> 
+                
+                <p class="p-texto"><textarea name="texto" id="texto-digitado" placeholder="Digite o seu texto."></textarea></p>
+                
+                <p class="aviso"><img class="img-aviso" src="imgs/info.png" alt="atençao ao digitar, somente em letras minúsculas e sem acentos"> Apenas letras minúsculas e sem acento</p>
+
+                <p class="botoes"><button id="criptografar">Criptografar</button>
+                    <button id="descriptografar">Descriptografar</button></p>
+            </div>
+            <div id="resultado">
+                <p><img class="searching" src="imgs/procurando.svg" alt="nenhuma mensagem encontrada, aguardando usuário digitar o texto"> </p>
+                <p class="texto-negrito">Nenhuma mensagem encontrada.</p>
+                <p class="texto-normal">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <P id="saidaDados">Seu texto é: 
+                    <textarea name="txt-transformado" id="txt-transformado" class="texto-transformado"></textarea>
+                </P>
+                <p class="copiando-texto"><button id="copiar">Copiar</button></p>
+            </div>
+
+        </section>
+
+    <footer>
+        <p>Alysson Iwamoto D Paladini - Oracle One Student</p>
+    </footer>
+    <script src="js/cripto.js"></script>
+    <script src="js/funcoes.js"></script>
+</body>
+</html>
